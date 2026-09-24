@@ -34,6 +34,7 @@
             vulkan-utility-libraries
             vulkan-extension-layer
             vulkan-validation-layers
+            vulkan-volk
             spirv-headers
             spirv-tools
             spirv-cross
