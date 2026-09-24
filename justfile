@@ -7,7 +7,7 @@ pkgs := "sdl3 libplacebo"
 default: build
 
 build:
-    {{cc}} -std=c23 {{src}} -o {{target}} \
+    {{cc}} -Wall -Wextra -std=c23 {{src}} -o {{target}} \
         $(pkg-config --cflags {{pkgs}}) \
         $(pkg-config --libs {{pkgs}}) \
         -lvolk
